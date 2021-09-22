@@ -1,0 +1,25 @@
+package com;
+
+import java.util.Scanner;
+
+public class Checkevenodd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num;
+		System.out.println("Enter the number");
+		
+		Scanner Sc =new Scanner(System.in);
+		num=Sc.nextInt();
+		
+		if(num%2==0) 
+			System.out.println("above is even number");
+			else 
+			System.out.println("above is odd number ");
+		}
+		
+
+	}
+
+

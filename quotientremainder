@@ -1,0 +1,23 @@
+package com;
+
+import java.util.Scanner;
+
+public class Quotientremnder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            Scanner Sc= new Scanner(System.in);
+            int divided = 0,divisor = 0;
+            System.out.println("Enter the divided number");
+            divided =Sc.nextInt();
+            System.out.println("Enter the divisor number");
+            divisor =Sc.nextInt();
+            int quotient = divided/divisor;
+            int remainder = divided%divisor;
+            
+           
+            System.out.println("Quotient"+quotient);
+            System.out.println("REmainder"+remainder);
+	}
+
+}
